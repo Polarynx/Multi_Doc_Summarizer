@@ -57,3 +57,7 @@ python -m venv venv_ollama
 venv_ollama\Scripts\activate      # Windows
 source venv_ollama/bin/activate   # macOS/Linux
 pip install -r requirements_ollama.txt
+```
+Requirements:
+  - ollama
+  - requests
