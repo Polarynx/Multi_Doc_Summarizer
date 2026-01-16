@@ -61,3 +61,23 @@ pip install -r requirements_ollama.txt
 Requirements:
   - ollama
   - requests
+    
+### 2. Visualizer Environment (`venv311`)
+```bash
+python -m venv venv311
+venv311\Scripts\activate          # Windows
+source venv311/bin/activate       # macOS/Linux
+pip install -r requirements_311.txt
+python -m spacy download en_core_web_sm
+```
+Requirements:
+  - spacy
+  - pyvis
+  - networkx
+  - python-docx
+  - python-pptx
+  - pandas
+  - openpyxl
+  - numpy
+**Note: Each tool uses a seperate virtual environemtn to avoid package conflicts**
+
