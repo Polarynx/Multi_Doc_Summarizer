@@ -1,4 +1,4 @@
-# Multi_Doc_Summarizer
+# Multi-Document Project Analyzer
 
 ## Project Overview
 The Multi-Document Project Analyzer is a Python-based tool designed to help users understand complex projects by combining **AI-powered summarization** with **interactive knowledge graph visualization**. It ingests multiple document formats (DOCX, PPTX, XLSX), extracts key information, and presents it in a way that is **easy to explore, analyze, and understand**.
