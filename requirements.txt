@@ -1,16 +1,16 @@
-python-docx
-python-pptx
-openpyxl
+# AI & RAG
+ollama==0.1.0  # Use the version compatible with your local Ollama install
 
-numpy
-pandas
+# Document processing
+python-docx>=0.8.11
+openpyxl>=3.1.2
+python-pptx>=0.6.21
 
-networkx
-pyvis
-matplotlib
+# Data handling
+pandas>=2.1.1
 
-tqdm
-requests
+# NLP & graph
+spacy>=3.7.0
+pyvis>=0.3.0
+networkx>=3.1
 
-langchain
-sentence-transformers
