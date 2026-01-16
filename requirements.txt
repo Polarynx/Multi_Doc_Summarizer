@@ -1,0 +1,22 @@
+# NLP
+spacy==3.5.3
+
+# NumPy for numeric operations
+numpy==1.26.4
+
+# Graph / visualization
+pyvis==0.3.1
+networkx==3.1
+
+# LLM / Ollama interface
+langchain_ollama==0.3.10
+
+# Utilities
+pandas==2.1.0
+tqdm==4.66.1
+requests==2.32.0
+
+# Dependencies for spaCy
+srsly==2.5.2
+thinc==8.1.11
+confection==0.0.4
