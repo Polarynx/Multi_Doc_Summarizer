@@ -1,2 +1,0 @@
-This directory holds the example documents that local Ollama LLM will extract 
-from (.DOCX, .XLSX, & .PPTX) converting these into a .JSON file that the tools will then read
