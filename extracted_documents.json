@@ -1,0 +1,158 @@
+[
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 1",
+    "content": "Project Atlas Infrastructure Platform"
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 3",
+    "content": "Overview"
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 4",
+    "content": "The Atlas Infrastructure Platform provides a highly available cloud-based foundation"
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 5",
+    "content": "for enterprise workloads."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 7",
+    "content": "Core Components"
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 8",
+    "content": "The platform uses regional cloud infrastructure with redundancy across multiple"
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 9",
+    "content": "availability zones."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 11",
+    "content": "Data Layer"
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 12",
+    "content": "PostgreSQL is used for transactional workloads."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 13",
+    "content": "Redis is used for session persistence and caching."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 14",
+    "content": "Object storage stores logs and build artifacts."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 16",
+    "content": "Security"
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 17",
+    "content": "The platform enforces role-based access control."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 18",
+    "content": "Secrets are managed via vault services."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 19",
+    "content": "Audit trails support compliance reporting."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 21",
+    "content": "Operations"
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 22",
+    "content": "The system includes monitoring dashboards and alerting."
+  },
+  {
+    "source_file": "MDS DOCX Test.docx",
+    "source_type": "docx",
+    "section": "Paragraph 23",
+    "content": "Incident response playbooks define escalation procedures."
+  },
+  {
+    "source_file": "MDS PPTX Test.pptx",
+    "source_type": "pptx",
+    "section": "Slide 1",
+    "content": "Atlas Performance Overview"
+  },
+  {
+    "source_file": "MDS PPTX Test.pptx",
+    "source_type": "pptx",
+    "section": "Slide 2",
+    "content": "Multi-region cloud deployment\nStateless services with autoscaling\nCentralized logging and metrics\nArchitecture"
+  },
+  {
+    "source_file": "MDS PPTX Test.pptx",
+    "source_type": "pptx",
+    "section": "Slide 3",
+    "content": "RBAC enforced across services\nSecrets rotated automatically\nCompliance monitoring enabled\nSecurity Model"
+  },
+  {
+    "source_file": "MDS XLSX Test.xlsx",
+    "source_type": "xlsx",
+    "section": "Sheet 'Sheet1', Row 1",
+    "content": "Service | Type | Purpose | Dependency"
+  },
+  {
+    "source_file": "MDS XLSX Test.xlsx",
+    "source_type": "xlsx",
+    "section": "Sheet 'Sheet1', Row 2",
+    "content": "API Gateway | Service | Routes requests | Load Balancer"
+  },
+  {
+    "source_file": "MDS XLSX Test.xlsx",
+    "source_type": "xlsx",
+    "section": "Sheet 'Sheet1', Row 3",
+    "content": "Auth Service | Service | Handles authentication | PostgreSQL"
+  },
+  {
+    "source_file": "MDS XLSX Test.xlsx",
+    "source_type": "xlsx",
+    "section": "Sheet 'Sheet1', Row 4",
+    "content": "Cache Layer | Infrastructure | Session caching | Redis"
+  },
+  {
+    "source_file": "MDS XLSX Test.xlsx",
+    "source_type": "xlsx",
+    "section": "Sheet 'Sheet1', Row 5",
+    "content": "Metrics | Monitoring | Performance tracking | Prometheus"
+  }
+]
