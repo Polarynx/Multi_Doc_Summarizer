@@ -107,4 +107,5 @@ Requirements:
    ```
 ---
 ## Demo Video
-Access placeholder to see a demo of the project in action
+This is a ~10 minute live demo of the tools, a walkthrough of both frameworks: https://drive.google.com/file/d/1aGUwjw3T0zr5GHH7Of98-X-RVcLxKy__/view?usp=sharing
+
