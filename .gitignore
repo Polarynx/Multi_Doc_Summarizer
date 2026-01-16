@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -8,14 +8,15 @@ venv311/
 venv_ollama/
 .env
 
-# OS files
+# OS-specific
 .DS_Store
 Thumbs.db
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# IDE-specific
+.vscode/
+.idea/
 
-# Logs and temp files
+# Logs & temp files
 *.log
 *.tmp
 
@@ -25,15 +26,10 @@ Thumbs.db
 dist/
 build/
 
-# IDE-specific
-.vscode/
-.idea/
+# Example outputs (optional: you may include or ignore)
+extracted_documents.json
+knowledge_graph.html
+graph_output.png
 
-# Data outputs (optional, can include examples)
-*.html
-*.json
-*.png
-*.jpg
-
-# Project docs raw files (optional: if you want to hide them, else keep them for demo)
+# Optional: raw project docs if you want them private
 # project_docs/
