@@ -1,0 +1,6 @@
+# RAG summarizer environment
+ollama==0.3.0
+requests>=2.31.0
+#Notes
+#ollama is the main dependency.
+#requests is used if you need to call the Ollama API directly.
