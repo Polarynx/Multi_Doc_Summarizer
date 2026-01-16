@@ -80,4 +80,31 @@ Requirements:
   - openpyxl
   - numpy
 #### **Note: Each tool uses a seperate virtual environemnt to avoid package conflicts**
-
+---
+## Directory & File Overview 
+  - project_docs/ - contains all project source documents (DOCX, PPTX, XLSX) used for ingestion.
+  - extracted_documents.json – JSON output from document_loader.py containing the processed text from all documents.
+  - app_project_rag.py – RAG summarizer for natural language Q&A about the project.
+  - visualize_v3.py – Interactive knowledge graph generator using all project documents.
+  - requirements_ollama.txt – Python dependencies for the summarizer (venv_ollama).
+  - requirements_311.txt – Python dependencies for the visualizer (venv311).
+  - knowledge_graph.html – Example interactive knowledge graph generated from the sample documents.
+  - gitignore – Specifies files/directories to exclude from the repo (virtual environments, large outputs, etc.)
+---
+## How to Use
+1. Prepare the environments (reference Environment Setup above)
+2. Ingest documents
+   ```bash
+   python document_loader.py
+   ```
+3. Run RAG Summarizer
+   ```bash
+   python app_project_rag.py
+   ```
+4. Run Knowledge Graph Visualizer
+   ```bash
+   python visualize_v3.py
+   ```
+---
+## Demo Video
+Access placeholder to see a demo of the project in action
