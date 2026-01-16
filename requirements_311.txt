@@ -1,0 +1,15 @@
+# Document ingestion + visualization environment
+spacy==3.6.1
+pyvis==0.3.1
+networkx==3.2
+python-docx==0.8.11
+python-pptx==0.6.21
+pandas==2.1.1
+openpyxl==3.1.2
+numpy==1.27.0
+#spacy is needed for NLP in visualize_v3.py.
+#pyvis + networkx handle graph visualization.
+#python-docx, python-pptx, pandas + openpyxl handle DOCX, PPTX, XLSX ingestion.
+#numpy is used internally by networkx/pyvis sometimes.
+#Optional: after installing spacy, you may need to download the English model if not already:
+#python -m spacy download en_core_web_sm
