@@ -1,37 +1,39 @@
-# =========================
-# Python
-# =========================
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# =========================
 # Virtual environments
-# =========================
-venv/
-venv*/
+venv311/
+venv_ollama/
 .env
-.env.*
 
-# =========================
-# Distribution / packaging
-# =========================
-build/
-dist/
-*.egg-info/
-
-# =========================
-# Jupyter / misc
-# =========================
-.ipynb_checkpoints
-
-# =========================
-# OS-specific files
-# =========================
+# OS files
 .DS_Store
 Thumbs.db
 
-# =========================
-# Logs & temp files
-# =========================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
 *.log
+*.tmp
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Data outputs (optional, can include examples)
+*.html
+*.json
+*.png
+*.jpg
+
+# Project docs raw files (optional: if you want to hide them, else keep them for demo)
+# project_docs/
